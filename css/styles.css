@@ -1,0 +1,55 @@
+
+* {
+    box-sizing: border-box;
+  }
+  
+  
+body {
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #fff;
+}
+
+ul,
+ol {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+
+.gallery{
+margin: 0 auto;
+width: 1128px;
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+justify-content: center;
+gap: 24px;
+}
+
+.gallery-item{
+}
+
+
+.gallery-link{
+}
+.gallery-image{
+object-fit: cover;
+width: 360px;
+height: 200px;
+}
+
+.modal{
+object-fit: cover;
+width: 1112px;
+height: 640px;
+margin: 0 auto;
+
+}
